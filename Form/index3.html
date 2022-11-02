@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicaton Form</title>
+    <style>
+        h1 {
+            color: rgb(25, 21, 29);
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(151, 177, 216)
+        }
+
+        body {
+            background-color: white;
+
+        }
+
+        .submit {
+            color: rgb(4, 51, 51);
+            background-color: lavender;
+            font-weight: bold;
+            font-size: large;
+        }
+        
+        .name {
+            color: rgb(10, 10, 10);
+            font-weight: bold;
+        }
+
+        .label {
+            width: 200px;
+        }
+        .container {
+margin: 10px
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formspree.io/f/myyvwwvg" method="post">
+        <h1>Student Details</h1>
+        <div class="container">
+            <form action="https://formspree.io/f/myyvwwvg" method="post">
+            <label class="label" for="name">Name</label>
+            <input type="text" id="name" class="name" placeholder="Name" required>
+            <br><br>
+            <label class="label" for="email ">E-mail</label>
+            <input type="text" id="email"class="email" placeholder="E-mail" required>
+            <br><br>
+            <label class="label" for="password">Password</label>
+            <input type="text" id="password" class="password" placeholder="Password" required>
+            <br><br>
+            <label class="label" for="phone">Number</label>
+            <input type="number" max="9999999999" id="phone" class="number" placeholder="Phone Number" required>
+            <br><br>
+            <p>Select sex:</p>
+            <input type="radio" id="r1" name="sex" value="male">
+            <label for="r1">Male</label>
+            <br><br>
+            <input type="radio" id="r2" name="sex" value="female">
+            <label for="r2">Female</label>
+            <br><br>
+            <input type="radio" id="r3" name="sex" value="intersex">
+            <label for="r3">Intersex</label>
+            <br><br>
+            <label class="label"for="course">select course:</label>
+            <select id="course"class="cou">
+                <option value="Tarang">Tarang</option>
+                <option value="Arohan">Arohan</option>
+                <option value="Umang">Umang</option>
+            </select>
+            <br><br>
+            <label class="label" for="Address">Address:</label><br><br>
+            <textarea id="Address" cols="20" rows="5" placeholder="Enter your Address...."></textarea required>
+             <br><br>
+             <input type="submit" class="submit" value="submitted your details"required>
+             
+    </form>
+
+
+</body>
+</html>
+
+https://formsubmit.co/el/ronino
+
